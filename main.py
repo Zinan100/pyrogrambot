@@ -11,6 +11,6 @@ Rexer=Client(
 
 @Rexer.on_message(filters.command("start"))
 async def start_message(bot, message):
-    await message.reply_text("hi i am pyrogram bot on work come after 1or2 week later")
+    await message.reply_text("hi i am pyrogram bot on work come after  week later")
 
 Rexer.run()
