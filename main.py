@@ -19,10 +19,12 @@ Rexer=Client(
     api_id="13160306",
     api_hash="5023c40ea655bc2834e48888b17ccee8"
 )
+# -- Constants -- #
+START = "hi bro"
 
-@Rexer.on_message(filters.command("start"))
+@Rexer.on_message(filters.command("START"))
 async def
-    start_message(bot, message): await message.reply_text("hi bro")
+    start_message(bot, message): await message.reply_text("START")
 
 
 
